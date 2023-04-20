@@ -76,7 +76,9 @@ header {
 .navbar-nav{
     background-color: black;
 }
-
+h1{
+    color: red;
+}
 main {
     background-color: black;
     height: 1800px;
