@@ -12,12 +12,18 @@
 
 header {
     width: auto;
-    height: 30px;
+    height: 35px;
     font-size: 20px;
+    color: black;
     background-color: red;
     border: 2px solid white;
 }
 
+marquee{
+    background-color: black;
+    background-image: linear-gradient(to right, #333333, #dd1818);
+    border: solid 2px white;
+}
 
 .nave {
     width: 100%;
@@ -40,7 +46,6 @@ header {
     background-color: black;
     display: flex;
     align-items: center;
-    border-left: 2px solid white;
 }
 
 .barra {
@@ -49,8 +54,8 @@ header {
     background-color: black;
     display: flex;
     border-left: 2px solid white;
-
 }
+
 
 .barra li {
     width: auto;
@@ -65,10 +70,12 @@ header {
     text-decoration: none;
     margin-right: 40px;
     color: white;
+    cursor: none;
 }
 
 .barra a:hover {
     color: red;
+    cursor: url(./img/eyes-4836_128.gif),pointer;
 }
 
 .carrito {
@@ -93,6 +100,14 @@ main {
     background-color: black;
     height: 2500px;
     width: auto;
+    border: 2px solid white;
+}
+
+.tienda{
+    height: 1000px;
+    width: auto;
+    background-image: linear-gradient(to right, #333333, #dd1818);
+    border: 2px solid black;
 }
 
 .carousel-inner {
