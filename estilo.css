@@ -98,9 +98,11 @@ h1 {
 
 main {
     background-color: black;
-    height: 2500px;
+    height: 2100px;
     width: auto;
     border: 2px solid white;
+    background-image: linear-gradient(to right, #333333, #dd1818);
+
 }
 
 .tienda{
@@ -119,6 +121,8 @@ main {
 
 .fotos {
     background-color: black;
+    background-image: linear-gradient(to right, #333333, #dd1818);
+
 }
 
 
