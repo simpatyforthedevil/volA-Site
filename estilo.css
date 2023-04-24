@@ -15,12 +15,13 @@ header {
     height: 30px;
     font-size: 20px;
     background-color: red;
+    border: 2px solid white;
 }
 
 
 .nave {
     width: 100%;
-    height: 60px;
+    height: 65px;
     background-color: black;
     display: flex;
     color: white;
@@ -28,13 +29,18 @@ header {
     font-size: 30px;
     text-transform: capitalize;
     justify-content: space-between;
+    border: 2px solid white;
+    border-top: none;
 }
 
 .logo {
     width: auto;
     height: 60px;
+    background-size: cover;
     background-color: black;
     display: flex;
+    align-items: center;
+    border-left: 2px solid white;
 }
 
 .barra {
@@ -42,6 +48,7 @@ header {
     height: 60px;
     background-color: black;
     display: flex;
+    border-left: 2px solid white;
 
 }
 
@@ -66,6 +73,7 @@ header {
 
 .carrito {
     padding-left: 40px;
+    border-left: 1px solid white;
 }
 
 .nav-resp {
@@ -83,7 +91,7 @@ h1 {
 
 main {
     background-color: black;
-    height: 2000px;
+    height: 2500px;
     width: auto;
 }
 
@@ -106,7 +114,7 @@ main {
     color: red;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 260px;
+    grid-template-rows: 400px;
     grid-area:
         "img1 img2"
         "img3 img4"
@@ -116,32 +124,32 @@ main {
 
 
 .container-fluid1 {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     background-image: url(./img/fotocarrusel1.jpg);
     background-size: cover;
     filter: grayscale(100%)
 }
 
 .container-fluid2 {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     background-image: url(./img/fotocarrusel2.jpg);
     background-size: cover;
     filter: grayscale(100%)
 }
 
 .container-fluid3 {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     background-image: url(./img/fotocarrusel3.jpg);
     background-size: cover;
     filter: grayscale(100%)
 }
 
 .container-fluid4 {
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     background-image: url(./img/fotocarrusel4.jpg);
     background-size: cover;
     filter: grayscale(100%)
@@ -251,7 +259,7 @@ footer {
     display: flex;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .barra li {
         display: none;
     }
@@ -272,12 +280,23 @@ footer {
         display: flex;
     }
 
-    .articulos {
+    /* .articulos {
         display: flex;
         flex-direction: column;
-        padding-left: 100px;
+        padding-left: 80px;
         text-align: center;
         color: red;
+    } */
+    .articulos {
+        width: auto;
+        height: 1000px;
+        text-align: center;
+        color: red;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
     }
 
     .container-fluid1 {
@@ -310,20 +329,33 @@ footer {
         background-color: black;
         display: flex;
     }
-
 }
 
-@media (min-width: 1392px)
+/* @media (min-width: 1392px)
 {
     .articulos{
         margin-left: 350px;
     }
-}
+} */
 
-@media (min-width: 760px) and (max-width: 1392px)
+@media (min-width: 774px) and (max-width: 1212px)
 {
     .articulos{
-        margin-left: 330px;
+        margin-left: 100px;
+    }
+}
+
+@media (min-width: 1212px) and (max-width: 1387px)
+{
+    .articulos{
+        margin-left: 150px;
+    }
+}
+
+@media (min-width: 1387px) and (max-width: 1900px)
+{
+    .articulos{
+        margin-left: 250px;
     }
 }
 
