@@ -83,7 +83,7 @@ h1 {
 
 main {
     background-color: black;
-    height: 1800px;
+    height: 2000px;
     width: auto;
 }
 
@@ -167,10 +167,74 @@ main {
     filter: grayscale(0%);
 }
 
+.fotos{
+    width: auto;
+    height: 500px;
+    background-color: black;
+    display: flex;
+}
+
+h2{
+    text-align: center;
+    padding-top: 400px; 
+    padding-right: 75%;
+    
+}
+
+.info{
+    color: red;
+    font-size: 20px;
+    
+}
+
+.info:hover{
+    color: white;
+    text-shadow: 1px black;
+}
+
+.fotos1{
+    width: 50%;
+    height: 450px;
+    background-color: red;
+    border: solid 2px white;
+}
+
+.fotos1:hover{
+    transform: scale(1.15);
+    transition: all 0.9s;
+}
+
+.fotos2{
+    width: 50%;
+    height: 450px;
+    background-color: red;
+    border: solid 2px white;
+}
+
+.fotos2:hover{
+    transform: scale(1.15);
+    transition: all 0.9s;
+}
+
+.fotos1 .fotos-img{
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/fotos1.jpg);
+    background-size: cover;
+}
+
+.fotos2 .fotos-img{
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/fotos2.jpg);
+    background-size: cover;
+}
+
 footer {
-    height: 80px;
+    height: 90px;
     text-align: center;
     background-color: red;
+    color: black;
 }
 
 .redes a {
@@ -236,9 +300,17 @@ footer {
 
     .container-fluid4 {
         border: 3px solid red;
-        box-shadow: black inside;
+        box-shadow: black;
         justify-content: space-around;
     }
+
+    .fotos{
+        width: 407px;
+        height: 500px;
+        background-color: black;
+        display: flex;
+    }
+
 }
 
 @media (min-width: 1392px)
