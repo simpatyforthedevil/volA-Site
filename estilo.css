@@ -19,7 +19,7 @@ header {
     border: 2px solid white;
 }
 
-marquee{
+marquee {
     background-color: black;
     background-image: linear-gradient(to right, #333333, #dd1818);
     border: solid 2px white;
@@ -75,7 +75,7 @@ marquee{
 
 .barra a:hover {
     color: red;
-    cursor: url(./img/eyes-4836_128.gif),pointer;
+    cursor: url(./img/eyes-4836_128.gif), pointer;
 }
 
 .carrito {
@@ -105,7 +105,7 @@ main {
 
 }
 
-.tienda{
+.tienda {
     height: 1000px;
     width: auto;
     background-image: linear-gradient(to right, #333333, #dd1818);
@@ -265,11 +265,11 @@ footer {
     color: black;
 }
 
-.redes a:hover{
+.redes a:hover {
     color: white;
 }
 
-.tel{
+.tel {
     color: black;
     height: 30px;
     border: 2px solid white;
@@ -289,7 +289,7 @@ footer {
     display: flex;
 }
 
-    .card{
+.card {
     background-color: black;
     display: inline-block;
     text-align: center;
@@ -297,45 +297,46 @@ footer {
     background-image: cover;
 }
 
-.tarjetas{
+.tarjetas {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    
+
 }
 
-.card-body{
+.card-body {
     color: red;
 }
 
-.card-body a{
+.card-body a {
     background-color: red;
 }
 
-.p-nosotrxs{
+.p-nosotrxs {
     font-size: 20px;
     text-align: center;
     color: black;
 }
-.container-nosotrxs{
+
+.container-nosotrxs {
     margin-left: 390px;
 }
 
-.p-nosotros{
+.p-nosotros {
     width: auto;
     color: black;
     font-size: 20px;
     text-align: center;
 }
 
-.container{
+.container {
     width: 600px;
     height: auto;
     border: 5px solid white;
 
 }
 
-iframe{
+iframe {
     width: 100%;
     text-align: right;
 }
