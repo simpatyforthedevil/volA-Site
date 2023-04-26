@@ -98,7 +98,7 @@ h1 {
 
 main {
     background-color: black;
-    height: 2100px;
+    height: 2300px;
     width: auto;
     border: 2px solid white;
     background-image: linear-gradient(to right, #333333, #dd1818);
@@ -171,7 +171,7 @@ main {
     width: 300px;
     background-image: url(./img/fotocarrusel4.jpg);
     background-size: cover;
-    filter: grayscale(100%)
+    filter: grayscale(100%);
 }
 
 .container-fluid1 p {
@@ -260,8 +260,19 @@ h2 {
 footer {
     height: 90px;
     text-align: center;
+    font-size: 30px;
     background-color: red;
     color: black;
+}
+
+.redes a:hover{
+    color: white;
+}
+
+.tel{
+    color: black;
+    height: 30px;
+    border: 2px solid white;
 }
 
 .redes a {
@@ -277,6 +288,58 @@ footer {
     width: auto;
     display: flex;
 }
+
+    .card{
+    background-color: black;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid white;
+    background-image: cover;
+}
+
+.tarjetas{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+
+.card-body{
+    color: red;
+}
+
+.card-body a{
+    background-color: red;
+}
+
+.p-nosotrxs{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+.container-nosotrxs{
+    margin-left: 390px;
+}
+
+.p-nosotros{
+    width: auto;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container{
+    width: 600px;
+    height: auto;
+    border: 5px solid white;
+
+}
+
+iframe{
+    width: 100%;
+    text-align: right;
+}
+
 
 @media screen and (max-width: 600px) {
     .barra li {
@@ -299,13 +362,6 @@ footer {
         display: flex;
     }
 
-    /* .articulos {
-        display: flex;
-        flex-direction: column;
-        padding-left: 80px;
-        text-align: center;
-        color: red;
-    } */
     .articulos {
         width: auto;
         height: 1000px;
@@ -350,12 +406,6 @@ footer {
     }
 }
 
-/* @media (min-width: 1392px)
-{
-    .articulos{
-        margin-left: 350px;
-    }
-} */
 
 @media (min-width: 774px) and (max-width: 1212px) {
     .articulos {
