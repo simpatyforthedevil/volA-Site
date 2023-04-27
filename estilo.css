@@ -318,10 +318,6 @@ footer {
     color: black;
 }
 
-.container-nosotrxs {
-    margin-left: 390px;
-}
-
 .p-nosotros {
     width: auto;
     color: black;
@@ -405,12 +401,17 @@ iframe {
         background-color: black;
         display: flex;
     }
+
+    
 }
 
 
 @media (min-width: 774px) and (max-width: 1212px) {
     .articulos {
         margin-left: 100px;
+    }
+    .container-nosotrxs {
+        margin-left: 0px;
     }
 }
 
