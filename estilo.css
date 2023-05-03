@@ -22,7 +22,6 @@ header {
 marquee {
     background-color: black;
     background-image: linear-gradient(to right, #333333, #dd1818);
-    border: solid 2px white;
 }
 
 .nave {
@@ -258,9 +257,9 @@ h2 {
 }
 
 footer {
-    height: 90px;
+    height: 75px;
     text-align: center;
-    font-size: 30px;
+    font-size: 15px;
     background-color: red;
     color: black;
 }
@@ -270,9 +269,9 @@ footer {
 }
 
 .tel {
+    height: 40px;
     color: black;
-    height: 30px;
-    border: 2px solid white;
+    height: 25px;
 }
 
 .redes a {
@@ -394,14 +393,6 @@ iframe {
         box-shadow: black;
         justify-content: space-around;
     }
-
-    .fotos {
-        width: 407px;
-        height: 500px;
-        background-color: black;
-        display: flex;
-    }
-
     
 }
 
