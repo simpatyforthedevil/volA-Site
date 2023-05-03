@@ -1,451 +1,414 @@
 @font-face {
-    font-family: highcruiser;
-    src: url(./Fuentes/HighCruiser-PersonalUseOnly.otf);
+  font-family: highcruiser;
+  src: url(./Fuentes/HighCruiser-PersonalUseOnly.otf);
 }
-
 * {
-    margin: 0;
-    padding: 0;
-    font-family: highcruiser;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: highcruiser;
+  box-sizing: border-box;
 }
 
 header {
-    width: auto;
-    height: 35px;
-    font-size: 20px;
-    color: black;
-    background-color: red;
-    border: 2px solid white;
+  width: auto;
+  height: 35px;
+  font-size: 20px;
+  color: black;
+  background-color: red;
+  border: 2px solid white;
 }
 
 marquee {
-    background-color: black;
-    background-image: linear-gradient(to right, #333333, #dd1818);
+  background-color: black;
+  background-image: linear-gradient(to right, #333333, #dd1818);
 }
 
 .nave {
-    width: 100%;
-    height: 65px;
-    background-color: black;
-    display: flex;
-    color: white;
-    font-family: highcruiser;
-    font-size: 30px;
-    text-transform: capitalize;
-    justify-content: space-between;
-    border: 2px solid white;
-    border-top: none;
+  width: 100%;
+  height: 65px;
+  background-color: black;
+  display: flex;
+  color: white;
+  font-family: highcruiser;
+  font-size: 30px;
+  text-transform: capitalize;
+  justify-content: space-between;
+  border: 2px solid white;
+  border-top: none;
 }
 
 .logo {
-    width: auto;
-    height: 60px;
-    background-size: cover;
-    background-color: black;
-    display: flex;
-    align-items: center;
+  width: auto;
+  height: 60px;
+  background-size: cover;
+  background-color: black;
+  display: flex;
+  align-items: center;
 }
 
 .barra {
-    width: auto;
-    height: 60px;
-    background-color: black;
-    display: flex;
-    border-left: 2px solid white;
+  width: auto;
+  height: 60px;
+  background-color: black;
+  display: flex;
+  border-left: 2px solid white;
 }
 
-
 .barra li {
-    width: auto;
-    list-style: none;
-    display: inline-block;
-    text-decoration: none;
-    margin-top: 5px;
+  width: auto;
+  list-style: none;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 5px;
 }
 
 .barra a {
-    width: auto;
-    text-decoration: none;
-    margin-right: 40px;
-    color: white;
-    cursor: none;
+  width: auto;
+  text-decoration: none;
+  margin-right: 40px;
+  color: white;
+  cursor: none;
 }
 
 .barra a:hover {
-    color: red;
-    cursor: url(./img/eyes-4836_128.gif), pointer;
+  color: red;
+  cursor: url(./img/eyes-4836_128.gif), pointer;
 }
 
 .carrito {
-    padding-left: 40px;
-    border-left: 1px solid white;
+  padding-left: 40px;
+  border-left: 1px solid white;
 }
 
 .nav-resp {
-    height: 60px;
-    width: 100%;
+  height: 60px;
+  width: 100%;
 }
 
 .navbar-nav {
-    background-color: black;
+  background-color: black;
 }
 
 h1 {
-    color: red;
+  color: red;
 }
 
 main {
-    background-color: black;
-    height: 2300px;
-    width: auto;
-    border: 2px solid white;
-    background-image: linear-gradient(to right, #333333, #dd1818);
-
+  background-color: black;
+  height: 2300px;
+  width: auto;
+  border: 2px solid white;
+  background-image: linear-gradient(to right, #333333, #dd1818);
 }
 
 .tienda {
-    height: 1000px;
-    width: auto;
-    background-image: linear-gradient(to right, #333333, #dd1818);
-    border: 2px solid black;
+  height: 1000px;
+  width: auto;
+  background-image: linear-gradient(to right, #333333, #dd1818);
+  border: 2px solid black;
 }
 
 .carousel-inner {
-    width: 100%;
-    background-size: cover;
-    text-align: center;
-    padding-top: 50px;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+  padding-top: 50px;
 }
 
 .fotos {
-    background-color: black;
-    background-image: linear-gradient(to right, #333333, #dd1818);
-
+  background-color: black;
+  background-image: linear-gradient(to right, #333333, #dd1818);
 }
-
 
 .articulos {
-    width: auto;
-    height: 800px;
-    text-align: center;
-    color: red;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 400px;
-    grid-area:
-        "img1 img2"
-        "img3 img4"
-    ;
+  width: auto;
+  height: 800px;
+  text-align: center;
+  color: red;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 400px;
+  grid-area: "img1 img2" "img3 img4";
 }
 
-
-
 .container-fluid1 {
-    height: 300px;
-    width: 300px;
-    background-image: url(./img/fotocarrusel1.jpg);
-    background-size: cover;
-    filter: grayscale(100%)
+  height: 300px;
+  width: 300px;
+  background-image: url(./img/fotocarrusel1.jpg);
+  background-size: cover;
+  filter: grayscale(100%);
 }
 
 .container-fluid2 {
-    height: 300px;
-    width: 300px;
-    background-image: url(./img/fotocarrusel2.jpg);
-    background-size: cover;
-    filter: grayscale(100%)
+  height: 300px;
+  width: 300px;
+  background-image: url(./img/fotocarrusel2.jpg);
+  background-size: cover;
+  filter: grayscale(100%);
 }
 
 .container-fluid3 {
-    height: 300px;
-    width: 300px;
-    background-image: url(./img/fotocarrusel3.jpg);
-    background-size: cover;
-    filter: grayscale(100%)
+  height: 300px;
+  width: 300px;
+  background-image: url(./img/fotocarrusel3.jpg);
+  background-size: cover;
+  filter: grayscale(100%);
 }
 
 .container-fluid4 {
-    height: 300px;
-    width: 300px;
-    background-image: url(./img/fotocarrusel4.jpg);
-    background-size: cover;
-    filter: grayscale(100%);
+  height: 300px;
+  width: 300px;
+  background-image: url(./img/fotocarrusel4.jpg);
+  background-size: cover;
+  filter: grayscale(100%);
 }
 
 .container-fluid1 p {
-    color: red;
+  color: red;
 }
 
 .container-fluid1:hover {
-    filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 
 .container-fluid2:hover {
-    filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 
 .container-fluid3:hover {
-    filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 
 .container-fluid4:hover {
-    filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 
 .fotos {
-    width: auto;
-    height: 500px;
-    background-color: black;
-    display: flex;
+  width: auto;
+  height: 500px;
+  background-color: black;
+  display: flex;
 }
 
 h2 {
-    text-align: center;
-    padding-top: 400px;
-    padding-right: 75%;
-
+  text-align: center;
+  padding-top: 400px;
+  padding-right: 75%;
 }
 
 .info {
-    color: red;
-    font-size: 20px;
-
+  color: red;
+  font-size: 20px;
 }
 
 .info:hover {
-    color: white;
-    text-shadow: 1px black;
+  color: white;
+  text-shadow: 1px black;
 }
 
 .fotos1 {
-    width: 50%;
-    height: 450px;
-    background-color: red;
-    border: solid 2px white;
+  width: 50%;
+  height: 450px;
+  background-color: red;
+  border: solid 2px white;
 }
 
 .fotos1:hover {
-    transform: scale(1.15);
-    transition: all 0.9s;
+  transform: scale(1.15);
+  transition: all 0.9s;
 }
 
 .fotos2 {
-    width: 50%;
-    height: 450px;
-    background-color: red;
-    border: solid 2px white;
+  width: 50%;
+  height: 450px;
+  background-color: red;
+  border: solid 2px white;
 }
 
 .fotos2:hover {
-    transform: scale(1.15);
-    transition: all 0.9s;
+  transform: scale(1.15);
+  transition: all 0.9s;
 }
 
 .fotos1 .fotos-img {
-    width: 100%;
-    height: 100%;
-    background-image: url(./img/fotos1.jpg);
-    background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-image: url(./img/fotos1.jpg);
+  background-size: cover;
 }
 
 .fotos2 .fotos-img {
-    width: 100%;
-    height: 100%;
-    background-image: url(./img/fotos2.jpg);
-    background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-image: url(./img/fotos2.jpg);
+  background-size: cover;
 }
 
 footer {
-    height: 75px;
-    text-align: center;
-    font-size: 15px;
-    background-color: red;
-    color: black;
+  height: 75px;
+  text-align: center;
+  font-size: 15px;
+  background-color: red;
+  color: black;
 }
 
 .redes a:hover {
-    color: white;
+  color: white;
 }
 
 .tel {
-    height: 40px;
-    color: black;
-    height: 25px;
+  height: 40px;
+  color: black;
+  height: 25px;
 }
 
 .redes a {
-    color: black;
+  color: black;
 }
 
 .copy {
-    display: inline-block;
+  display: inline-block;
 }
 
 .fotos-footer {
-    height: 400px;
-    width: auto;
-    display: flex;
+  height: 400px;
+  width: auto;
+  display: flex;
 }
 
 .card {
-    background-color: black;
-    display: inline-block;
-    text-align: center;
-    border: 2px solid white;
-    background-image: cover;
+  background-color: black;
+  display: inline-block;
+  text-align: center;
+  border: 2px solid white;
+  background-image: cover;
 }
 
 .tarjetas {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
 .card-body {
-    color: red;
+  color: red;
 }
 
 .card-body a {
-    background-color: red;
+  background-color: red;
 }
 
 .p-nosotrxs {
-    font-size: 20px;
-    text-align: center;
-    color: black;
+  font-size: 20px;
+  text-align: center;
+  color: black;
 }
 
 .p-nosotros {
-    width: auto;
-    color: black;
-    font-size: 20px;
-    text-align: center;
+  width: auto;
+  color: black;
+  font-size: 20px;
+  text-align: center;
 }
 
 .container {
-    width: 600px;
-    height: auto;
-    border: 5px solid white;
-
+  width: 600px;
+  height: auto;
+  border: 5px solid white;
 }
 
 iframe {
-    width: 100%;
-    text-align: right;
+  width: 100%;
+  text-align: right;
 }
-
 
 @media screen and (max-width: 600px) {
-    .barra li {
-        display: none;
-    }
-
-    .barra a {
-        margin-right: 0px;
-    }
-
-    .carrito {
-        padding-left: 2px;
-    }
-
-    .logo {
-        display: none;
-    }
-
-    .nav-resp {
-        display: flex;
-    }
-
-    .articulos {
-        width: auto;
-        height: 1000px;
-        text-align: center;
-        color: red;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-
-    }
-
-    .container-fluid1 {
-        border: 3px solid red;
-        box-shadow: black inside;
-        justify-content: space-around;
-    }
-
-    .container-fluid2 {
-        border: 3px solid red;
-        box-shadow: black inside;
-        justify-content: space-around;
-    }
-
-    .container-fluid3 {
-        border: 3px solid red;
-        box-shadow: black inside;
-        justify-content: space-around;
-    }
-
-    .container-fluid4 {
-        border: 3px solid red;
-        box-shadow: black;
-        justify-content: space-around;
-    }
-    
+  .barra li {
+    display: none;
+  }
+  .barra a {
+    margin-right: 0px;
+  }
+  .carrito {
+    padding-left: 2px;
+  }
+  .logo {
+    display: none;
+  }
+  .nav-resp {
+    display: flex;
+  }
+  .articulos {
+    width: auto;
+    height: 1000px;
+    text-align: center;
+    color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .container-fluid1 {
+    border: 3px solid red;
+    box-shadow: black inside;
+    justify-content: space-around;
+  }
+  .container-fluid2 {
+    border: 3px solid red;
+    box-shadow: black inside;
+    justify-content: space-around;
+  }
+  .container-fluid3 {
+    border: 3px solid red;
+    box-shadow: black inside;
+    justify-content: space-around;
+  }
+  .container-fluid4 {
+    border: 3px solid red;
+    box-shadow: black;
+    justify-content: space-around;
+  }
 }
-
-
 @media (min-width: 774px) and (max-width: 1212px) {
-    .articulos {
-        margin-left: 100px;
-    }
-    .container-nosotrxs {
-        margin-left: 0px;
-    }
+  .articulos {
+    margin-left: 100px;
+  }
+  .container-nosotrxs {
+    margin-left: 0px;
+  }
 }
-
 @media (min-width: 1212px) and (max-width: 1387px) {
-    .articulos {
-        margin-left: 150px;
-    }
+  .articulos {
+    margin-left: 150px;
+  }
 }
-
 @media (min-width: 1387px) and (max-width: 1900px) {
-    .articulos {
-        margin-left: 250px;
-    }
+  .articulos {
+    margin-left: 250px;
+  }
 }
-
 @media (min-width: 1460px) {
-    .nav-resp {
-        display: none;
-    }
-
+  .nav-resp {
+    display: none;
+  }
 }
-
 @media (max-width: 1460px) and (orientation: landscape) {
-    .nave {
-        background-color: black;
-        background-position: right;
-    }
-
-    .barra li {
-        display: none;
-    }
-
+  .nave {
+    background-color: black;
+    background-position: right;
+  }
+  .barra li {
+    display: none;
+  }
 }
-
 @media (max-width: 1000px) {
-
-    .nave {
-        background-color: black;
-        background-position: right;
-    }
-
-    .barra li {
-        display: none;
-    }
-
+  .nave {
+    background-color: black;
+    background-position: right;
+  }
+  .barra li {
+    display: none;
+  }
 }
+
+/*# sourceMappingURL=estilo.css.map */
