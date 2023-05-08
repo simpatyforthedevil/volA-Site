@@ -105,7 +105,6 @@ main {
   height: 1000px;
   width: auto;
   background-image: linear-gradient(to right, #333333, #dd1818);
-  border: 2px solid black;
 }
 
 .carousel-inner {
@@ -113,6 +112,13 @@ main {
   background-size: cover;
   text-align: center;
   padding-top: 50px;
+}
+
+h5 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
 }
 
 .fotos {
